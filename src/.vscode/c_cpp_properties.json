@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/../build_ext/built_sdl/include/**",
+                "${workspaceFolder}/../build_ext/built_sdl_mixer/include/**",
+                "${workspaceFolder}/../build_ext/fluidsynth-lite/include/**",
+                "${workspaceFolder}/../build_ext/built_glew/include/**"
+            ],
+            "forcedInclude": [
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "USE_OPENGL"
+            ],
+            "windowsSdkVersion": "10.0.22000.0",
+            "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}

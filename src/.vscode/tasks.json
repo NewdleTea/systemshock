@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Build Project",
+			"options": {
+				"cwd": "${workspaceFolder}/../"
+			},
+			"command": "$Env:PATH += 'C:/git/usr/bin/;C:/msys64/mingw64/bin/'; ./build.bat",
+			"group": "build",
+			"detail": "Build systemshock"
+		}
+	]
+}
